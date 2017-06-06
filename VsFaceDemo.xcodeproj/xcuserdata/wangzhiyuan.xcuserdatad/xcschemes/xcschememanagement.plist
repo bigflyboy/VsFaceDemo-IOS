@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>VsCameraDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>VsFaceDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5C290B961EE11D3F00709A6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CA6B6C41EE6A14900398760</key>
 		<dict>
 			<key>primary</key>
 			<true/>

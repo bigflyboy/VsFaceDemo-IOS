@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "Gamera.h"
 
 @interface VsController : NSObject
 
--(void)Init;//初始化
+-(void)Init:(UIView*) view;//初始化
 
 -(void)Display:(BOOL) enable;//开启、关闭预览
 

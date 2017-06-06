@@ -12,7 +12,6 @@
 		5C290BA21EE11D3F00709A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C290BA11EE11D3F00709A6A /* ViewController.m */; };
 		5C290BA51EE11D3F00709A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C290BA31EE11D3F00709A6A /* Main.storyboard */; };
 		5C290BA71EE11D3F00709A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C290BA61EE11D3F00709A6A /* Assets.xcassets */; };
-		5C290BAA1EE11D3F00709A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C290BA81EE11D3F00709A6A /* LaunchScreen.storyboard */; };
 		5CA6B6A01EE6721400398760 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B69F1EE6721400398760 /* face.png */; };
 		5CA6B6B41EE6750000398760 /* face_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6AA1EE6750000398760 /* face_red.png */; };
 		5CA6B6B51EE6750000398760 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6AB1EE6750000398760 /* face.png */; };
@@ -25,6 +24,14 @@
 		5CA6B6BC1EE6750000398760 /* video_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6B21EE6750000398760 /* video_red.png */; };
 		5CA6B6BD1EE6750000398760 /* video_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6B31EE6750000398760 /* video_blue.png */; };
 		5CA6B6C01EE67C1B00398760 /* VsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6BF1EE67C1B00398760 /* VsController.m */; };
+		5CA6B6C91EE6A14900398760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6C81EE6A14900398760 /* main.m */; };
+		5CA6B6CC1EE6A14900398760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6CB1EE6A14900398760 /* AppDelegate.m */; };
+		5CA6B6CF1EE6A14900398760 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6CE1EE6A14900398760 /* ViewController.m */; };
+		5CA6B6D21EE6A14900398760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6D01EE6A14900398760 /* Main.storyboard */; };
+		5CA6B6D41EE6A14900398760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6D31EE6A14900398760 /* Assets.xcassets */; };
+		5CA6B6D71EE6A14900398760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6D51EE6A14900398760 /* LaunchScreen.storyboard */; };
+		5CA6B6DE1EE6A1A800398760 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA6B6DD1EE6A1A800398760 /* AVFoundation.framework */; };
+		5CA6B6E11EE6BC0A00398760 /* Gamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6E01EE6BC0A00398760 /* Gamera.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +43,6 @@
 		5C290BA11EE11D3F00709A6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5C290BA41EE11D3F00709A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C290BA61EE11D3F00709A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C290BA91EE11D3F00709A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C290BAB1EE11D3F00709A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA6B69F1EE6721400398760 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face.png; path = ../../../../Downloads/UI/face.png; sourceTree = "<group>"; };
 		5CA6B6AA1EE6750000398760 /* face_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face_red.png; path = Assets.xcassets/face_red.png; sourceTree = "<group>"; };
@@ -51,6 +57,19 @@
 		5CA6B6B31EE6750000398760 /* video_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = video_blue.png; path = Assets.xcassets/video_blue.png; sourceTree = "<group>"; };
 		5CA6B6BE1EE67C1B00398760 /* VsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VsController.h; sourceTree = "<group>"; };
 		5CA6B6BF1EE67C1B00398760 /* VsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VsController.m; sourceTree = "<group>"; };
+		5CA6B6C51EE6A14900398760 /* VsCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VsCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA6B6C81EE6A14900398760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA6B6CA1EE6A14900398760 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CA6B6CB1EE6A14900398760 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CA6B6CD1EE6A14900398760 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CA6B6CE1EE6A14900398760 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CA6B6D11EE6A14900398760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CA6B6D31EE6A14900398760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CA6B6D61EE6A14900398760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CA6B6D81EE6A14900398760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA6B6DD1EE6A1A800398760 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5CA6B6DF1EE6BC0A00398760 /* Gamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gamera.h; path = ../../../../Downloads/zerojar/ios/Gamera.h; sourceTree = "<group>"; };
+		5CA6B6E01EE6BC0A00398760 /* Gamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Gamera.mm; path = ../../../../Downloads/zerojar/ios/Gamera.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CA6B6C21EE6A14900398760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA6B6DE1EE6A1A800398760 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,7 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				5C290B991EE11D3F00709A6A /* VsFaceDemo */,
+				5CA6B6C61EE6A14900398760 /* VsCameraDemo */,
 				5C290B981EE11D3F00709A6A /* Products */,
+				5CA6B6DC1EE6A1A800398760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				5C290B971EE11D3F00709A6A /* VsFaceDemo.app */,
+				5CA6B6C51EE6A14900398760 /* VsCameraDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +113,8 @@
 		5C290B991EE11D3F00709A6A /* VsFaceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5CA6B6DF1EE6BC0A00398760 /* Gamera.h */,
+				5CA6B6E01EE6BC0A00398760 /* Gamera.mm */,
 				5CA6B6AA1EE6750000398760 /* face_red.png */,
 				5CA6B6AB1EE6750000398760 /* face.png */,
 				5CA6B6AC1EE6750000398760 /* fair_red.png */,
@@ -100,7 +132,6 @@
 				5C290BA11EE11D3F00709A6A /* ViewController.m */,
 				5C290BA31EE11D3F00709A6A /* Main.storyboard */,
 				5C290BA61EE11D3F00709A6A /* Assets.xcassets */,
-				5C290BA81EE11D3F00709A6A /* LaunchScreen.storyboard */,
 				5C290BAB1EE11D3F00709A6A /* Info.plist */,
 				5C290B9A1EE11D3F00709A6A /* Supporting Files */,
 				5CA6B6BE1EE67C1B00398760 /* VsController.h */,
@@ -115,6 +146,38 @@
 				5C290B9B1EE11D3F00709A6A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA6B6C61EE6A14900398760 /* VsCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5CA6B6CA1EE6A14900398760 /* AppDelegate.h */,
+				5CA6B6CB1EE6A14900398760 /* AppDelegate.m */,
+				5CA6B6CD1EE6A14900398760 /* ViewController.h */,
+				5CA6B6CE1EE6A14900398760 /* ViewController.m */,
+				5CA6B6D01EE6A14900398760 /* Main.storyboard */,
+				5CA6B6D31EE6A14900398760 /* Assets.xcassets */,
+				5CA6B6D51EE6A14900398760 /* LaunchScreen.storyboard */,
+				5CA6B6D81EE6A14900398760 /* Info.plist */,
+				5CA6B6C71EE6A14900398760 /* Supporting Files */,
+			);
+			path = VsCameraDemo;
+			sourceTree = "<group>";
+		};
+		5CA6B6C71EE6A14900398760 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA6B6C81EE6A14900398760 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA6B6DC1EE6A1A800398760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA6B6DD1EE6A1A800398760 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +200,23 @@
 			productReference = 5C290B971EE11D3F00709A6A /* VsFaceDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5CA6B6C41EE6A14900398760 /* VsCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA6B6DB1EE6A14900398760 /* Build configuration list for PBXNativeTarget "VsCameraDemo" */;
+			buildPhases = (
+				5CA6B6C11EE6A14900398760 /* Sources */,
+				5CA6B6C21EE6A14900398760 /* Frameworks */,
+				5CA6B6C31EE6A14900398760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VsCameraDemo;
+			productName = VsCameraDemo;
+			productReference = 5CA6B6C51EE6A14900398760 /* VsCameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,6 +227,11 @@
 				ORGANIZATIONNAME = "王志远";
 				TargetAttributes = {
 					5C290B961EE11D3F00709A6A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7C42L52533;
+						ProvisioningStyle = Automatic;
+					};
+					5CA6B6C41EE6A14900398760 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7C42L52533;
 						ProvisioningStyle = Automatic;
@@ -167,6 +252,7 @@
 			projectRoot = "";
 			targets = (
 				5C290B961EE11D3F00709A6A /* VsFaceDemo */,
+				5CA6B6C41EE6A14900398760 /* VsCameraDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -177,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA6B6B81EE6750000398760 /* ic_launcher_round.png in Resources */,
-				5C290BAA1EE11D3F00709A6A /* LaunchScreen.storyboard in Resources */,
 				5CA6B6BA1EE6750000398760 /* picture.png in Resources */,
 				5C290BA71EE11D3F00709A6A /* Assets.xcassets in Resources */,
 				5CA6B6B71EE6750000398760 /* fair.png in Resources */,
@@ -193,6 +278,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CA6B6C31EE6A14900398760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA6B6D71EE6A14900398760 /* LaunchScreen.storyboard in Resources */,
+				5CA6B6D41EE6A14900398760 /* Assets.xcassets in Resources */,
+				5CA6B6D21EE6A14900398760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,9 +296,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C290BA21EE11D3F00709A6A /* ViewController.m in Sources */,
+				5CA6B6E11EE6BC0A00398760 /* Gamera.mm in Sources */,
 				5C290B9F1EE11D3F00709A6A /* AppDelegate.m in Sources */,
 				5CA6B6C01EE67C1B00398760 /* VsController.m in Sources */,
 				5C290B9C1EE11D3F00709A6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA6B6C11EE6A14900398760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA6B6CF1EE6A14900398760 /* ViewController.m in Sources */,
+				5CA6B6CC1EE6A14900398760 /* AppDelegate.m in Sources */,
+				5CA6B6C91EE6A14900398760 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,10 +324,18 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5C290BA81EE11D3F00709A6A /* LaunchScreen.storyboard */ = {
+		5CA6B6D01EE6A14900398760 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5C290BA91EE11D3F00709A6A /* Base */,
+				5CA6B6D11EE6A14900398760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA6B6D51EE6A14900398760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA6B6D61EE6A14900398760 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -341,6 +455,30 @@
 			};
 			name = Release;
 		};
+		5CA6B6D91EE6A14900398760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7C42L52533;
+				INFOPLIST_FILE = VsCameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visionin.VsCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CA6B6DA1EE6A14900398760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7C42L52533;
+				INFOPLIST_FILE = VsCameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visionin.VsCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -361,6 +499,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5CA6B6DB1EE6A14900398760 /* Build configuration list for PBXNativeTarget "VsCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA6B6D91EE6A14900398760 /* Debug */,
+				5CA6B6DA1EE6A14900398760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -30,7 +30,9 @@
     
     [super viewDidLoad];
     
-    [_mVscontroller Init];
+    _mVscontroller = [[VsController alloc]init];
+    
+    [_mVscontroller Init:self.view];
     
     isface = NO;
     isvideo = NO;
@@ -41,6 +43,7 @@
     [self initView];
     
     [_mVscontroller Open];
+    NSLog(@"VsController Open");
 }
 
 - (void)initView {
@@ -150,6 +153,12 @@
 -(void)clickBtn2:(UIButton *)btn{
     //[self showMessage:@"截图"];
     [_mVscontroller Snapshot];
+//    if (isopen) {
+//        [_mVscontroller Open];
+//    } else {
+//        [_mVscontroller Close];
+//    }
+//    isopen = !isopen;
 }
 
 -(void)clickBtn3:(UIButton *)btn{
