@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "Gamera.h"
+#import <Gamera.h>
 
 @interface VsController : NSObject
 

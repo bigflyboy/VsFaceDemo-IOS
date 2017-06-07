@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VsFaceDemo/VsController.m"
-            timestampString = "518439531.143994"
+            timestampString = "518521378.573768"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "-Open"
             landmarkType = "7">
          </BreakpointContent>

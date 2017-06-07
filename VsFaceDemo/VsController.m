@@ -8,7 +8,9 @@
 
 #import "VsController.h"
 
-@interface VsController()
+@interface VsController() {
+    int a;
+}
 @property (nonatomic, strong)Gamera* m_gamera;
 
 @end
@@ -16,6 +18,7 @@
 @implementation VsController
 
 -(void)Init:(UIView*) view{
+
     _m_gamera = [[Gamera alloc]init:view];
 }//初始化
 
@@ -25,6 +28,7 @@
 
 -(void)Open{
     //NSLog(@"VsController Open");
+    //[_m_gamera setFps:5];
     [_m_gamera open:YES width:1280 height:720];
 }//打开摄像头
 

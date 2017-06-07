@@ -14,9 +14,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>gpu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5C16472F1EE7E8D100CC16EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C16476F1EE802BE00CC16EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5C290B961EE11D3F00709A6A</key>
 		<dict>
 			<key>primary</key>

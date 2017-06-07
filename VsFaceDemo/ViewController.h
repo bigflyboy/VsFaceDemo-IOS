@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "VsController.h"
+#import <gpu.h>
 
 @interface ViewController : UIViewController
 {

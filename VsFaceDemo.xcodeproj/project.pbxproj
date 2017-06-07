@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C1647661EE800DC00CC16EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA6B6DD1EE6A1A800398760 /* AVFoundation.framework */; };
+		5C1647741EE802BE00CC16EA /* gpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1647721EE802BE00CC16EA /* gpu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C1647771EE802BE00CC16EA /* gpu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1647701EE802BE00CC16EA /* gpu.framework */; };
+		5C1647781EE802BE00CC16EA /* gpu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1647701EE802BE00CC16EA /* gpu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C1647811EE8034700CC16EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA6B6DD1EE6A1A800398760 /* AVFoundation.framework */; };
+		5C1647821EE8035B00CC16EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1647641EE8000800CC16EA /* Foundation.framework */; };
+		5C1647891EE804BE00CC16EA /* gpu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1647881EE804BE00CC16EA /* gpu.m */; };
+		5C16478C1EE8071C00CC16EA /* Gamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C16478A1EE8071C00CC16EA /* Gamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C16478D1EE8071C00CC16EA /* Gamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5C16478B1EE8071C00CC16EA /* Gamera.mm */; };
 		5C290B9C1EE11D3F00709A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C290B9B1EE11D3F00709A6A /* main.m */; };
 		5C290B9F1EE11D3F00709A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C290B9E1EE11D3F00709A6A /* AppDelegate.m */; };
 		5C290BA21EE11D3F00709A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C290BA11EE11D3F00709A6A /* ViewController.m */; };
@@ -24,17 +33,40 @@
 		5CA6B6BC1EE6750000398760 /* video_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6B21EE6750000398760 /* video_red.png */; };
 		5CA6B6BD1EE6750000398760 /* video_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6B31EE6750000398760 /* video_blue.png */; };
 		5CA6B6C01EE67C1B00398760 /* VsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6BF1EE67C1B00398760 /* VsController.m */; };
-		5CA6B6C91EE6A14900398760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6C81EE6A14900398760 /* main.m */; };
-		5CA6B6CC1EE6A14900398760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6CB1EE6A14900398760 /* AppDelegate.m */; };
-		5CA6B6CF1EE6A14900398760 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6CE1EE6A14900398760 /* ViewController.m */; };
-		5CA6B6D21EE6A14900398760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6D01EE6A14900398760 /* Main.storyboard */; };
-		5CA6B6D41EE6A14900398760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6D31EE6A14900398760 /* Assets.xcassets */; };
-		5CA6B6D71EE6A14900398760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6B6D51EE6A14900398760 /* LaunchScreen.storyboard */; };
-		5CA6B6DE1EE6A1A800398760 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA6B6DD1EE6A1A800398760 /* AVFoundation.framework */; };
-		5CA6B6E11EE6BC0A00398760 /* Gamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6B6E01EE6BC0A00398760 /* Gamera.mm */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5C1647751EE802BE00CC16EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C290B8F1EE11D3F00709A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C16476F1EE802BE00CC16EA;
+			remoteInfo = gpu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C16477C1EE802BE00CC16EA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C1647781EE802BE00CC16EA /* gpu.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5C1647641EE8000800CC16EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C1647701EE802BE00CC16EA /* gpu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = gpu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1647721EE802BE00CC16EA /* gpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gpu.h; sourceTree = "<group>"; };
+		5C1647731EE802BE00CC16EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1647881EE804BE00CC16EA /* gpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gpu.m; sourceTree = "<group>"; };
+		5C16478A1EE8071C00CC16EA /* Gamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gamera.h; sourceTree = "<group>"; };
+		5C16478B1EE8071C00CC16EA /* Gamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Gamera.mm; sourceTree = "<group>"; };
 		5C290B971EE11D3F00709A6A /* VsFaceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VsFaceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C290B9B1EE11D3F00709A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C290B9D1EE11D3F00709A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,45 +89,48 @@
 		5CA6B6B31EE6750000398760 /* video_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = video_blue.png; path = Assets.xcassets/video_blue.png; sourceTree = "<group>"; };
 		5CA6B6BE1EE67C1B00398760 /* VsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VsController.h; sourceTree = "<group>"; };
 		5CA6B6BF1EE67C1B00398760 /* VsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VsController.m; sourceTree = "<group>"; };
-		5CA6B6C51EE6A14900398760 /* VsCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VsCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CA6B6C81EE6A14900398760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5CA6B6CA1EE6A14900398760 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5CA6B6CB1EE6A14900398760 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5CA6B6CD1EE6A14900398760 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5CA6B6CE1EE6A14900398760 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5CA6B6D11EE6A14900398760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5CA6B6D31EE6A14900398760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5CA6B6D61EE6A14900398760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5CA6B6D81EE6A14900398760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA6B6DD1EE6A1A800398760 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		5CA6B6DF1EE6BC0A00398760 /* Gamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gamera.h; path = ../../../../Downloads/zerojar/ios/Gamera.h; sourceTree = "<group>"; };
-		5CA6B6E01EE6BC0A00398760 /* Gamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Gamera.mm; path = ../../../../Downloads/zerojar/ios/Gamera.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5C16476C1EE802BE00CC16EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1647821EE8035B00CC16EA /* Foundation.framework in Frameworks */,
+				5C1647811EE8034700CC16EA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C290B941EE11D3F00709A6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CA6B6C21EE6A14900398760 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CA6B6DE1EE6A1A800398760 /* AVFoundation.framework in Frameworks */,
+				5C1647661EE800DC00CC16EA /* AVFoundation.framework in Frameworks */,
+				5C1647771EE802BE00CC16EA /* gpu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C1647711EE802BE00CC16EA /* gpu */ = {
+			isa = PBXGroup;
+			children = (
+				5C1647721EE802BE00CC16EA /* gpu.h */,
+				5C1647731EE802BE00CC16EA /* Info.plist */,
+				5C1647881EE804BE00CC16EA /* gpu.m */,
+				5C16478A1EE8071C00CC16EA /* Gamera.h */,
+				5C16478B1EE8071C00CC16EA /* Gamera.mm */,
+			);
+			path = gpu;
+			sourceTree = "<group>";
+		};
 		5C290B8E1EE11D3F00709A6A = {
 			isa = PBXGroup;
 			children = (
 				5C290B991EE11D3F00709A6A /* VsFaceDemo */,
-				5CA6B6C61EE6A14900398760 /* VsCameraDemo */,
+				5C1647711EE802BE00CC16EA /* gpu */,
 				5C290B981EE11D3F00709A6A /* Products */,
 				5CA6B6DC1EE6A1A800398760 /* Frameworks */,
 			);
@@ -105,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				5C290B971EE11D3F00709A6A /* VsFaceDemo.app */,
-				5CA6B6C51EE6A14900398760 /* VsCameraDemo.app */,
+				5C1647701EE802BE00CC16EA /* gpu.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,8 +148,6 @@
 		5C290B991EE11D3F00709A6A /* VsFaceDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5CA6B6DF1EE6BC0A00398760 /* Gamera.h */,
-				5CA6B6E01EE6BC0A00398760 /* Gamera.mm */,
 				5CA6B6AA1EE6750000398760 /* face_red.png */,
 				5CA6B6AB1EE6750000398760 /* face.png */,
 				5CA6B6AC1EE6750000398760 /* fair_red.png */,
@@ -148,33 +181,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5CA6B6C61EE6A14900398760 /* VsCameraDemo */ = {
-			isa = PBXGroup;
-			children = (
-				5CA6B6CA1EE6A14900398760 /* AppDelegate.h */,
-				5CA6B6CB1EE6A14900398760 /* AppDelegate.m */,
-				5CA6B6CD1EE6A14900398760 /* ViewController.h */,
-				5CA6B6CE1EE6A14900398760 /* ViewController.m */,
-				5CA6B6D01EE6A14900398760 /* Main.storyboard */,
-				5CA6B6D31EE6A14900398760 /* Assets.xcassets */,
-				5CA6B6D51EE6A14900398760 /* LaunchScreen.storyboard */,
-				5CA6B6D81EE6A14900398760 /* Info.plist */,
-				5CA6B6C71EE6A14900398760 /* Supporting Files */,
-			);
-			path = VsCameraDemo;
-			sourceTree = "<group>";
-		};
-		5CA6B6C71EE6A14900398760 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5CA6B6C81EE6A14900398760 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		5CA6B6DC1EE6A1A800398760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C1647641EE8000800CC16EA /* Foundation.framework */,
 				5CA6B6DD1EE6A1A800398760 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
@@ -182,7 +192,37 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5C16476D1EE802BE00CC16EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1647741EE802BE00CC16EA /* gpu.h in Headers */,
+				5C16478C1EE8071C00CC16EA /* Gamera.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		5C16476F1EE802BE00CC16EA /* gpu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1647791EE802BE00CC16EA /* Build configuration list for PBXNativeTarget "gpu" */;
+			buildPhases = (
+				5C16476B1EE802BE00CC16EA /* Sources */,
+				5C16476C1EE802BE00CC16EA /* Frameworks */,
+				5C16476D1EE802BE00CC16EA /* Headers */,
+				5C16476E1EE802BE00CC16EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gpu;
+			productName = gpu;
+			productReference = 5C1647701EE802BE00CC16EA /* gpu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5C290B961EE11D3F00709A6A /* VsFaceDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C290BAE1EE11D3F00709A6A /* Build configuration list for PBXNativeTarget "VsFaceDemo" */;
@@ -190,31 +230,16 @@
 				5C290B931EE11D3F00709A6A /* Sources */,
 				5C290B941EE11D3F00709A6A /* Frameworks */,
 				5C290B951EE11D3F00709A6A /* Resources */,
+				5C16477C1EE802BE00CC16EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5C1647761EE802BE00CC16EA /* PBXTargetDependency */,
 			);
 			name = VsFaceDemo;
 			productName = VsFaceDemo;
 			productReference = 5C290B971EE11D3F00709A6A /* VsFaceDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		5CA6B6C41EE6A14900398760 /* VsCameraDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CA6B6DB1EE6A14900398760 /* Build configuration list for PBXNativeTarget "VsCameraDemo" */;
-			buildPhases = (
-				5CA6B6C11EE6A14900398760 /* Sources */,
-				5CA6B6C21EE6A14900398760 /* Frameworks */,
-				5CA6B6C31EE6A14900398760 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VsCameraDemo;
-			productName = VsCameraDemo;
-			productReference = 5CA6B6C51EE6A14900398760 /* VsCameraDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -226,12 +251,12 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "王志远";
 				TargetAttributes = {
-					5C290B961EE11D3F00709A6A = {
+					5C16476F1EE802BE00CC16EA = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7C42L52533;
 						ProvisioningStyle = Automatic;
 					};
-					5CA6B6C41EE6A14900398760 = {
+					5C290B961EE11D3F00709A6A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7C42L52533;
 						ProvisioningStyle = Automatic;
@@ -252,12 +277,19 @@
 			projectRoot = "";
 			targets = (
 				5C290B961EE11D3F00709A6A /* VsFaceDemo */,
-				5CA6B6C41EE6A14900398760 /* VsCameraDemo */,
+				5C16476F1EE802BE00CC16EA /* gpu */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5C16476E1EE802BE00CC16EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C290B951EE11D3F00709A6A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,42 +310,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CA6B6C31EE6A14900398760 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CA6B6D71EE6A14900398760 /* LaunchScreen.storyboard in Resources */,
-				5CA6B6D41EE6A14900398760 /* Assets.xcassets in Resources */,
-				5CA6B6D21EE6A14900398760 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5C16476B1EE802BE00CC16EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C16478D1EE8071C00CC16EA /* Gamera.mm in Sources */,
+				5C1647891EE804BE00CC16EA /* gpu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C290B931EE11D3F00709A6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5C290BA21EE11D3F00709A6A /* ViewController.m in Sources */,
-				5CA6B6E11EE6BC0A00398760 /* Gamera.mm in Sources */,
 				5C290B9F1EE11D3F00709A6A /* AppDelegate.m in Sources */,
 				5CA6B6C01EE67C1B00398760 /* VsController.m in Sources */,
 				5C290B9C1EE11D3F00709A6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CA6B6C11EE6A14900398760 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CA6B6CF1EE6A14900398760 /* ViewController.m in Sources */,
-				5CA6B6CC1EE6A14900398760 /* AppDelegate.m in Sources */,
-				5CA6B6C91EE6A14900398760 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C1647761EE802BE00CC16EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C16476F1EE802BE00CC16EA /* gpu */;
+			targetProxy = 5C1647751EE802BE00CC16EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5C290BA31EE11D3F00709A6A /* Main.storyboard */ = {
@@ -324,25 +352,53 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5CA6B6D01EE6A14900398760 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5CA6B6D11EE6A14900398760 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5CA6B6D51EE6A14900398760 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5CA6B6D61EE6A14900398760 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5C16477A1EE802BE00CC16EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7C42L52533;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = gpu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visionin.gpu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C16477B1EE802BE00CC16EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7C42L52533;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = gpu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visionin.gpu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5C290BAC1EE11D3F00709A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -436,8 +492,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7C42L52533;
+				HEADER_SEARCH_PATHS = (
+					/Users/wangzhiyuan/Downloads/zerojar/ios,
+					/Users/wangzhiyuan/Sources/ObjectC/VsFaceDemo/gpu,
+				);
 				INFOPLIST_FILE = VsFaceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VsFaceDemo",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = Visionin.VsFaceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -448,33 +513,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7C42L52533;
+				HEADER_SEARCH_PATHS = (
+					/Users/wangzhiyuan/Downloads/zerojar/ios,
+					/Users/wangzhiyuan/Sources/ObjectC/VsFaceDemo/gpu,
+				);
 				INFOPLIST_FILE = VsFaceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VsFaceDemo",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = Visionin.VsFaceDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		5CA6B6D91EE6A14900398760 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7C42L52533;
-				INFOPLIST_FILE = VsCameraDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Visionin.VsCameraDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		5CA6B6DA1EE6A14900398760 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7C42L52533;
-				INFOPLIST_FILE = VsCameraDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Visionin.VsCameraDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -482,6 +532,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5C1647791EE802BE00CC16EA /* Build configuration list for PBXNativeTarget "gpu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C16477A1EE802BE00CC16EA /* Debug */,
+				5C16477B1EE802BE00CC16EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5C290B921EE11D3F00709A6A /* Build configuration list for PBXProject "VsFaceDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -499,14 +557,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		5CA6B6DB1EE6A14900398760 /* Build configuration list for PBXNativeTarget "VsCameraDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CA6B6D91EE6A14900398760 /* Debug */,
-				5CA6B6DA1EE6A14900398760 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

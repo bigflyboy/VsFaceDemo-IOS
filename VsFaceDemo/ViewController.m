@@ -44,6 +44,29 @@
     
     [_mVscontroller Open];
     NSLog(@"VsController Open");
+    
+    gpu* mgpu = [[gpu alloc]init];
+    [mgpu helloA];
+    
+//    // 获取沙盒主目录路径
+//    NSString *homeDir = NSHomeDirectory();
+//    // 获取Documents目录路径
+//    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//    NSString *docDir = [paths objectAtIndex:0];
+//    
+//    NSLog(@"%@", docDir);
+//    
+//    NSString *filePath = [docDir stringByAppendingPathComponent:@"file.text"];
+//    NSFileManager *manager = [NSFileManager defaultManager];
+//    NSString *str = @"无线互联";
+//    NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
+//    //参数：文件路径、文件内容、文件的属性
+//    BOOL sucess = [manager createFileAtPath:filePath contents:data attributes:nil];
+//    if(sucess){
+//        NSLog(@"文件创建成功");
+//    }else{
+//        NSLog(@"文件创建失败");
+//    }
 }
 
 - (void)initView {
